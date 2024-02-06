@@ -1,0 +1,49 @@
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(48, 170, 235);
+}
+
+
+.cardContainer { 
+  margin: 5% 5%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 40px 55px;
+  grid-template-columns: auto auto auto auto auto
+    
+}
+
+.card{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  width:cover;
+ 
+}
+
+h1{
+  text-align: center;
+}
+ .selectContainer{
+ margin-left: 40%;
+  
+ }
+
+ .componentsContainer{
+  display:flex;
+  text-align: center;
+  justify-content:center;
+ 
+ }
+
+ .componentsContainer2{
+  
+  text-align: center;
+  justify-content:center;
+ 
+ }
+
+
+
