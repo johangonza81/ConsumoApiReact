@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+
 
 const Buscador = ({ peliculaData,setPeliculaData,searchTerm, setSearchTerm }) => {
   

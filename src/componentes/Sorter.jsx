@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 
-const Ordenar = ({ peliculaData, setPeliculaData }) => {
+
+const Sorter = ({ peliculaData, setPeliculaData }) => {
   const handleSortChange = (e) => {
     const selectedOption = e.target.value;
 
@@ -27,4 +27,4 @@ const Ordenar = ({ peliculaData, setPeliculaData }) => {
   );
 };
 
-export default Ordenar;
+export default Sorter;
