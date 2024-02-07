@@ -8,7 +8,7 @@ import Buscador from './componentes/Buscador';
 
 function App() {
   const [peliculaData, setPeliculaData] = useState([]);
-  
+  const [searchTerm, setSearchTerm] = useState('');
 
 
   
@@ -16,7 +16,7 @@ function App() {
     <div >
       <h1>Peliculas de Animacion</h1><hr/> 
       <div className='componentsContainer'> 
-      <Buscador peliculaData={peliculaData} setPeliculaData={setPeliculaData}/>
+      <Buscador peliculaData={peliculaData} setPeliculaData={setPeliculaData} searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
       </div>
       <div className='componentsContainer'>
       <Sorter peliculaData={peliculaData} setPeliculaData={setPeliculaData}/>

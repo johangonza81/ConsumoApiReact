@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react';
 
-const Buscador = ({ peliculaData,setPeliculaData }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+const Buscador = ({ peliculaData,setPeliculaData,searchTerm, setSearchTerm }) => {
   
-
   const handleSearch = () => {
     const movies = peliculaData.filter(movie => 
       movie.title.toLowerCase().includes(searchTerm.toLowerCase())
